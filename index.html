@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="app">
+        <button id="theme-toggle">🌙 Dark Mode</button>
+        <h1>🌡️ Temperature Converter</h1>
+
+        <select id="conversionType">
+            <option value="CtoF">Celsius → Fahrenheit</option>
+            <option value="FtoC">Fahrenheit → Celsius</option>
+            <option value="CtoK">Celsius → Kelvin</option>
+            <option value="KtoC">Kelvin → Celsius</option>
+        </select>
+
+        <input type="number" id="tempInput" placeholder="Enter Temperature">
+        <button onclick="convert()">Convert</button>
+
+        <h2 id="result">Result: </h2>
+        <img id="icon" alt="icon" width="60" height="60">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

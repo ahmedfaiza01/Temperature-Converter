@@ -1,0 +1,88 @@
+:root {
+    --bg-color: #e0f7fa;
+    --text-color: #333;
+    --box-color: white;
+    --button-bg: #00796b;
+    --button-hover: #004d40;
+}
+
+body.dark {
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --box-color: #1e1e1e;
+    --button-bg: #26a69a;
+    --button-hover: #00897b;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.4s, color 0.4s;
+}
+
+.container {
+    background: var(--box-color);
+    padding: 30px 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: background 0.4s;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background: var(--button-bg);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: var(--button-hover);
+}
+
+#icon {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+#icon:hover {
+    transform: scale(1.1);
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
