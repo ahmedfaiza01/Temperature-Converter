@@ -75,7 +75,7 @@ Use the **Live Server** extension or open `index.html` directly in a browser.
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-|  | ![Dark](https://via.placeholder.com/300x180?text=Dark+Mode) |
+|  |  |
 
 ## 📄 License
 
