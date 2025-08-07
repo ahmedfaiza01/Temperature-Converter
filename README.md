@@ -73,9 +73,11 @@ Use the **Live Server** extension or open `index.html` directly in a browser.
 
 ## 📸 Screenshots
 
-| Light Mode | Dark Mode |
-|------------|-----------|
-|  |  |
+### 🌞 Light Mode
+![Light Screenshot](images/screenshot-light.png)
+
+### 🌙 Dark Mode
+![Dark Screenshot](images/screenshot-dark.png)
 
 ## 📄 License
 
