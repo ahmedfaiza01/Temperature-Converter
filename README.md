@@ -40,7 +40,7 @@ Convert between **Celsius**, **Fahrenheit**, and **Kelvin** easily with real-tim
 
 ---
 
-## 👨‍💻 Team Members
+## 👨‍💻 Team Member
 | Name         | ID      |
 |--------------|---------|
 | Ahmed Faiza  | C231465 |
