@@ -1,4 +1,4 @@
-# 🌡️ Temperature Converter Web App
+# 🌡️ Temperature Converter 
 
 An interactive, responsive, and user-friendly temperature converter built using HTML, CSS, and JavaScript.  
 Convert between **Celsius**, **Fahrenheit**, and **Kelvin** easily with real-time feedback, icons, and animations.
@@ -75,11 +75,7 @@ Use the **Live Server** extension or open `index.html` directly in a browser.
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light](https://via.placeholder.com/300x180?text=Light+Mode) | ![Dark](https://via.placeholder.com/300x180?text=Dark+Mode) |
-
-> Replace placeholders with real screenshots if available.
-
----
+|  | ![Dark](https://via.placeholder.com/300x180?text=Dark+Mode) |
 
 ## 📄 License
 
